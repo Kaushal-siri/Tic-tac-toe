@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe | Two Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>Tic‑Tac‑Toe</h1>
+        <p id="status" aria-live="polite">
+          Player <span class="badge" id="player">X</span>'s turn
+        </p>
+      </header>
+
+      <section
+        class="board"
+        id="board"
+        role="grid"
+        aria-label="Tic-Tac-Toe board"
+      >
+        <button
+          class="cell"
+          data-index="0"
+          role="gridcell"
+          aria-label="Cell 1"
+          aria-live="off"
+        ></button>
+        <button
+          class="cell"
+          data-index="1"
+          role="gridcell"
+          aria-label="Cell 2"
+          aria-live="off"
+        ></button>
+        <button
+          class="cell"
+          data-index="2"
+          role="gridcell"
+          aria-label="Cell 3"
+          aria-live="off"
+        ></button>
+        <button
+          class="cell"
+          data-index="3"
+          role="gridcell"
+          aria-label="Cell 4"
+          aria-live="off"
+        ></button>
+        <button
+          class="cell"
+          data-index="4"
+          role="gridcell"
+          aria-label="Cell 5"
+          aria-live="off"
+        ></button>
+        <button
+          class="cell"
+          data-index="5"
+          role="gridcell"
+          aria-label="Cell 6"
+          aria-live="off"
+        ></button>
+        <button
+          class="cell"
+          data-index="6"
+          role="gridcell"
+          aria-label="Cell 7"
+          aria-live="off"
+        ></button>
+        <button
+          class="cell"
+          data-index="7"
+          role="gridcell"
+          aria-label="Cell 8"
+          aria-live="off"
+        ></button>
+        <button
+          class="cell"
+          data-index="8"
+          role="gridcell"
+          aria-label="Cell 9"
+          aria-live="off"
+        ></button>
+      </section>
+
+      <div class="controls">
+        <button id="reset" class="reset-btn" aria-label="Reset the game">
+          Reset
+        </button>
+      </div>
+
+      <footer class="footnote">
+        <small>Built with HTML • CSS • JavaScript</small>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
